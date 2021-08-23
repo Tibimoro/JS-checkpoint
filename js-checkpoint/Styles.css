@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+  
+header {
+    background-image: url("images/online.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    position: relative;
+}
+
+.over {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(10, 10, 10, 0.3);
+}
+  
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 60px 0 60px;
+}
+  
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+  
+nav li span {
+    padding-left: 5px;
+}
+  
+li a {
+    padding: 5px;
+    background-color: white;
+    text-decoration: none;
+}
+  
+.cart ion-icon {
+    vertical-align: bottom;
+    font-size: 20px;
+    padding-right: 5px;
+}
+  
+.cart a {
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container{
+    margin: auto;
+    margin-top: 20px; 
+}
+
+.col-md-, .col-lg-4{
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 400px;
+    height: 200px;
+}
+
+.sty{
+    font-size: 18px ;
+    color: black ;
+}
+
+.num{
+    width: 80px;
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.uk-border-circle{
+    width: 100px ;
+    height: 100px ;
+}
+
+.fa-cart-arrow-down{
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+    padding-left: 20px;
+}
